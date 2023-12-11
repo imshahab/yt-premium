@@ -23,7 +23,7 @@ function menuDlObserverDisconnect(btn) {
 
 function download() {
   window.open(
-    `https://projectlounge.pw/ytdl/download?url=${window.location.href}`,
+    `https://youtube-dl-web.vercel.app/result?f=bestvideo%2Bbestaudio%2Fbest&q=${window.location.href}`,
     "_blank"
   );
 }
